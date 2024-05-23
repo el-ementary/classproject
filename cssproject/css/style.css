@@ -1,0 +1,44 @@
+/*body, header, nav, main, footer, li, h1, p*/
+/*font-family, font-size, background-colour, display, width, text-align, color, line height*/
+
+header {
+    background-color: #ffeff9;
+    display: block;
+    width: 50%;
+    min-width: fit-content;
+    border-radius: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+body, nav, main, h1, footer {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    background-color: #fcfcfc;
+    color: #b11b72;
+    text-align: center;
+}
+li {
+    display: inline;
+    width: 90%;
+    font-weight: bold;
+    line-height: 2;
+}
+div {
+    background-color: #ffeff9;
+    display: block;
+    border-radius: 50px
+    min-width: fit-content;
+}
+img {
+    display: inline-block;
+    border-radius: 30%;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+h1 {
+    font-size: x-large;
+    color: #3a0658;
+}
+p {
+    line-height: 1.5;
+}
